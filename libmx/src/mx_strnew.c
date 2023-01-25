@@ -1,0 +1,33 @@
+#include "../inc/libmx.h"
+
+char *mx_strnew(const int size) {
+	if (size < 0)
+		return NULL;
+
+	char *str = (char*)malloc((size + 1));
+	
+	if (str == NULL) 
+		return NULL;
+
+	for (int i = 0; i < size + 1; i++) 
+		str[i] = '\0';
+
+	return str;
+}
+
+// int main() {
+// 	char *str = mx_strnew(10);
+
+// 	for (int i = 0; i < 10; i++) {
+// 		str[i] = 'a';
+// 	}
+
+// 	int i = 0;
+// 	while (str[i] != '\0') {
+// 		printf("%c", str[i]);
+// 		i++;
+// 	}
+
+// 	free(str);
+// }
+
