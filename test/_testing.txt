@@ -1,0 +1,11 @@
+easy: PASSED
+empty: PASSED
+hard: PASSED
+hardest: PASSED
+
+invalid1: PASSED
+invalid2: PASSED
+invalid3: PASSED
+
+medium: PASSED
+superhard: NOT PASSED
