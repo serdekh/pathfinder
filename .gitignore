@@ -1,0 +1,8 @@
+/.vscode
+/obj
+/libmx/obj
+/libmx/*.a
+/test
+*.out
+*.txt
+pathfinder
